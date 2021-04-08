@@ -1,1 +1,7 @@
--high -novid -nojoy -tickrate 128 +exec autoexec.cfg
+/*
+ * novid -- disable valve video at startup
+ * nojoy -- disable joystick support (saves memory)  
+ * tickrate -- sets tickrate for local server
+ */
+
+-novid -nojoy -tickrate 128

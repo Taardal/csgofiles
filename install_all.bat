@@ -6,3 +6,5 @@ set csgoPath=C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global
 for %%i in (*.cfg) do (
     mklink "%csgoPath%\%%~nxi" "%configPath%\%%~nxi"
 )
+
+pause
